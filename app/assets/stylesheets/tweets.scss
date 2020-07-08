@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  .header {
+    background-color: #7fffd4;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    &__left {
+      font-size: 24px;
+    }
+    &__saarch {
+      &__box {
+        width: 300px;
+      }
+    }
+    &__right {
+      width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .lists {
+        .lists__item {
+          display: inline-block;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+  .main {
+  }
+  .footer {
+  }
+}
